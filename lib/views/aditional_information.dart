@@ -26,12 +26,12 @@ Widget additionalInformation(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Wind",
+                  "Angin(km/h)",
                   style: titleFont,
                 ),
                 SizedBox(height: 18.0),
                 Text(
-                  "Pressure",
+                  "Tekanan(hPa)",
                   style: titleFont,
                 ),
               ],
@@ -56,12 +56,12 @@ Widget additionalInformation(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Humidity",
+                  "Kelembaban(%)",
                   style: titleFont,
                 ),
                 SizedBox(height: 18.0),
                 Text(
-                  "Feels Like",
+                  "Rasanya Seperti (C°)",
                   style: titleFont,
                 ),
               ],
